@@ -1,0 +1,77 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="ng-click" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="45">
+            <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="1" class="java.lang.String" itemvalue="six" />
+            <item index="2" class="java.lang.String" itemvalue="django-cors-middleware" />
+            <item index="3" class="java.lang.String" itemvalue="django-rest-swagger" />
+            <item index="4" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="5" class="java.lang.String" itemvalue="requests" />
+            <item index="6" class="java.lang.String" itemvalue="whitenoise" />
+            <item index="7" class="java.lang.String" itemvalue="redis" />
+            <item index="8" class="java.lang.String" itemvalue="celery" />
+            <item index="9" class="java.lang.String" itemvalue="python-json-logger" />
+            <item index="10" class="java.lang.String" itemvalue="django-filter" />
+            <item index="11" class="java.lang.String" itemvalue="Django" />
+            <item index="12" class="java.lang.String" itemvalue="Mako" />
+            <item index="13" class="java.lang.String" itemvalue="django-celery" />
+            <item index="14" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="15" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="16" class="java.lang.String" itemvalue="pymsql" />
+            <item index="17" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="18" class="java.lang.String" itemvalue="et-xmlfile" />
+            <item index="19" class="java.lang.String" itemvalue="xlsxwriter" />
+            <item index="20" class="java.lang.String" itemvalue="snapshot-phantomjs" />
+            <item index="21" class="java.lang.String" itemvalue="pyecharts" />
+            <item index="22" class="java.lang.String" itemvalue="django-mysql" />
+            <item index="23" class="java.lang.String" itemvalue="pymongo" />
+            <item index="24" class="java.lang.String" itemvalue="django-redis" />
+            <item index="25" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="26" class="java.lang.String" itemvalue="wechatpy" />
+            <item index="27" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="28" class="java.lang.String" itemvalue="Pillow" />
+            <item index="29" class="java.lang.String" itemvalue="xlwt" />
+            <item index="30" class="java.lang.String" itemvalue="supervisor" />
+            <item index="31" class="java.lang.String" itemvalue="XlsxWriter" />
+            <item index="32" class="java.lang.String" itemvalue="iteration-utilities" />
+            <item index="33" class="java.lang.String" itemvalue="pymysql" />
+            <item index="34" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="35" class="java.lang.String" itemvalue="IPy" />
+            <item index="36" class="java.lang.String" itemvalue="djangorestframework-jwt" />
+            <item index="37" class="java.lang.String" itemvalue="ipaddr" />
+            <item index="38" class="java.lang.String" itemvalue="psutil" />
+            <item index="39" class="java.lang.String" itemvalue="simplejson" />
+            <item index="40" class="java.lang.String" itemvalue="PySocks" />
+            <item index="41" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="42" class="java.lang.String" itemvalue="cryptography" />
+            <item index="43" class="java.lang.String" itemvalue="pycrypto" />
+            <item index="44" class="java.lang.String" itemvalue="crypto" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="home_application.celery_tasks.service.is_standard_index_value" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animals</title>
+</head>
+<body>
+<ul>
+    {% for animals in page_list %}
+        <li>{{ animals.name }}</li>
+    {% endfor %}
+</ul>
+<ul>
+    {% for page_index in page_range %}
+        <li>
+            <a href="{% url 'advance:get_animals' %}?page={{ page_index }}">{{ page_index }}</a>
+        </li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>
